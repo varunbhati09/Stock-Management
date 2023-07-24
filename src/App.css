@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+body {
+  background-color: #f6f6f6;
+
+
+  background-image: linear-gradient(to bottom right, #4CAF50, #FFC107);
+
+  background-image: -webkit-linear-gradient(to bottom right, #4CAF50, #FFC107);
+  background-image: -moz-linear-gradient(to bottom right, #4CAF50, #FFC107);
+  background-image: -o-linear-gradient(to bottom right, #4CAF50, #FFC107);
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +48,8 @@
     transform: rotate(360deg);
   }
 }
+/* src/styles/BackgroundGradient.css */
+
+
+
+
